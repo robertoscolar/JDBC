@@ -10,7 +10,7 @@ A tabela tem dois campos:
 A idéia é de que o código seja único e que seja colocado automaticamente em cada nome cadastrado, assim, aumentando a efetividade das buscas.
 Isso é possível com o seguinte comando no mysql:
 
-create table cadastro_cliente (
+create table cliente (
    codigo int not null auto_increment
 )
 
